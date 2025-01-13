@@ -18,7 +18,7 @@ const Reviews = () => {
             I strongly recommend BABS K9 anytime
           </h2>
           <p className="text-lg text-center">
-            We are so grateful for BABS K9 and their amazing services. We can't express our gratitude for Floki. 
+            We are so grateful for BABS K9 and their amazing services. We can&apos;t express our gratitude for Floki. 
             He is amazing, we highly recommend BABS K9 for your canine services.
           </p>
           <br />
