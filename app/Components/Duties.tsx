@@ -22,7 +22,7 @@ const Duties = () => {
         </h2>
         <div className="text-black text-base md:text-lg leading-relaxed space-y-4">
           <p>
-            A bouncer's duties include providing security, checking legal age and drinking age, refusing entry to intoxicated persons, and dealing with aggressive, violent, or verbal behavior or disobedience to statutory or establishment rules.
+            A bouncer&apos;s duties include providing security, checking legal age and drinking age, refusing entry to intoxicated persons, and dealing with aggressive, violent, or verbal behavior or disobedience to statutory or establishment rules.
           </p>
           <p>
             They are also responsible for maintaining order and ensuring that all laws and regulations are followed by patrons. We are available 24/7 for all your business, personal, and special occasions.

@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from "react";
 
 export default function Home() {
@@ -6,12 +7,13 @@ export default function Home() {
       <div className="max-w-7xl mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
         <div className="md:flex">
           <div className="md:w-1/2">
-            <img
+            <Image
               src="/bouncers.jpeg"
               alt="Security professionals"
-              width={900}
-              height={900}
+              width={900} // Width of the image
+              height={900} // Height of the image
               className="w-full h-full object-cover"
+              priority // Optional: To prioritize loading the image
             />
           </div>
 
@@ -29,7 +31,6 @@ export default function Home() {
               cabaret clubs, casinos, hotels, restaurants, and more.
             </p>
 
-          
             <div className="space-y-6">
               {[ 
                 {
