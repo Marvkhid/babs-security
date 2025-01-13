@@ -16,7 +16,7 @@ const Form = () => {
       </div>
 
       {/* Right Section - Form */}
-      <div className="flex-1 bg-pink-300 pt-8 pb-10 px-8 md:px-12 lg:px-20 rounded-md shadow-lg flex flex-col justify-start">
+      <div className="flex-1 bg-orange-200 pt-8 pb-10 px-8 md:px-12 lg:px-20 rounded-md shadow-lg flex flex-col justify-start">
         <div className="space-y-4">
           <h2 className="text-black font-bold text-2xl">Need our service?</h2>
           <p className="text-lg text-gray-800">

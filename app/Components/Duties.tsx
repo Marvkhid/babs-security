@@ -16,7 +16,7 @@ const Duties = () => {
       </div>
 
       {/* Right Section - Text */}
-      <div className="flex-1 flex flex-col justify-center items-center text-center bg-pink-300 px-8 py-10 md:py-16 rounded-r-md shadow-lg">
+      <div className="flex-1 flex flex-col justify-center items-center text-center bg-orange-200 px-8 py-10 md:py-16 rounded-r-md shadow-lg">
         <h2 className="text-xl md:text-2xl text-orange-600 font-bold mb-6">
           DUTIES OF A BOUNCER
         </h2>

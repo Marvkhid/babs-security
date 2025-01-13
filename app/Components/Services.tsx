@@ -17,7 +17,7 @@ export default function Home() {
             />
           </div>
 
-          <div className="p-12 md:w-1/2 bg-pink-200 pb-8">
+          <div className="p-12 md:w-1/2 bg-orange-200 pb-8">
             <h2 className="text-2xl font-bold text-orange-500 mb-4">
               OUR SERVICES
             </h2>
