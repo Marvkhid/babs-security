@@ -10,14 +10,14 @@ export default function Home() {
             <Image
               src="/bouncers.jpeg"
               alt="Security professionals"
-              width={900} // Width of the image
-              height={900} // Height of the image
+              width={900} 
+              height={900} 
               className="w-full h-full object-cover"
-              priority // Optional: To prioritize loading the image
+              priority 
             />
           </div>
 
-          <div className="p-12 md:w-1/2 bg-pink-200 pb-0">
+          <div className="p-12 md:w-1/2 bg-pink-200 pb-8">
             <h2 className="text-2xl font-bold text-orange-500 mb-4">
               OUR SERVICES
             </h2>

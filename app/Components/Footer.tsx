@@ -23,7 +23,7 @@ const Footer = () => {
       {/* Social Media Icons */}
       <div className="flex gap-3 justify-center">
         {/* Facebook */}
-        <div className="p-2 rounded-full bg-orange-50 hover:bg-orange-800 transition-all duration-300">
+        <div className="p-2 rounded-full hover:bg-orange-800 transition-all duration-300">
           <Image
             src="/fb-icon.jpeg"
             alt="fb-icon"
@@ -34,7 +34,7 @@ const Footer = () => {
         </div>
 
         {/* Twitter */}
-        <div className="p-2 rounded-full bg-orange-50 hover:bg-orange-800 transition-all duration-300">
+        <div className="p-2 rounded-full hover:bg-orange-800 transition-all duration-300">
           <Image
             src="/x-icon.png"
             alt="x-icon"
@@ -45,7 +45,7 @@ const Footer = () => {
         </div>
 
         {/* Instagram */}
-        <div className="p-2 rounded-full bg-orange-50 hover:bg-orange-800 transition-all duration-300">
+        <div className="p-2 rounded-full  hover:bg-orange-800 transition-all duration-300">
           <Image
             src="/instagram-icon.jpeg"
             alt="instagram-icon"
@@ -56,7 +56,7 @@ const Footer = () => {
         </div>
 
         {/* LinkedIn */}
-        <div className="p-2 rounded-full bg-orange-50 hover:bg-orange-800 transition-all duration-300">
+        <div className="p-2 rounded-full hover:bg-orange-800 transition-all duration-300">
           <Image
             src="/linkedIn-icon.png"
             alt="linkedIn-icon"

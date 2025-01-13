@@ -50,7 +50,7 @@ const OtherServices = () => {
           </div>
 
           {/* Smaller Images */}
-          <div className="absolute top-4 left-4 w-12 h-12 md:w-16 md:h-16 rounded-full overflow-hidden">
+          <div className="absolute top-4 left-4  w-12 h-12 md:w-16 md:h-16 rounded-full overflow-hidden">
             <Image
               src="/Ellipse 4.png"
               alt="Dog 1"
