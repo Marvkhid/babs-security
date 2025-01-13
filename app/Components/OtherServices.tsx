@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 
 const OtherServices = () => {
@@ -38,9 +39,11 @@ const OtherServices = () => {
           {/* Central Image */}
           <div className="absolute inset-0 flex items-center justify-center">
             <div className="w-64 h-64 md:w-72 md:h-72 rounded-full overflow-hidden border-4 border-gray-200">
-              <img
+              <Image
                 src="/Ellipse 2.png"
                 alt="Main Dog"
+                width={288}
+                height={288}
                 className="w-full h-full object-cover"
               />
             </div>
@@ -48,19 +51,43 @@ const OtherServices = () => {
 
           {/* Smaller Images */}
           <div className="absolute top-4 left-4 w-12 h-12 md:w-16 md:h-16 rounded-full overflow-hidden">
-            <img src="/Ellipse 4.png" alt="Dog 1" className="w-full h-full object-cover" />
+            <Image
+              src="/Ellipse 4.png"
+              alt="Dog 1"
+              width={64}
+              height={64}
+              className="w-full h-full object-cover"
+            />
           </div>
 
           <div className="absolute top-4 left-1/4 transform -translate-x-1/2 w-12 h-12 md:w-16 md:h-16 rounded-full overflow-hidden">
-            <img src="/Ellipse 3.png" alt="Dog 2" className="w-full h-full object-cover" />
+            <Image
+              src="/Ellipse 3.png"
+              alt="Dog 2"
+              width={64}
+              height={64}
+              className="w-full h-full object-cover"
+            />
           </div>
 
           <div className="absolute top-4 right-1/4 transform translate-x-1/2 w-12 h-12 md:w-16 md:h-16 rounded-full overflow-hidden">
-            <img src="/Ellipse 5.png" alt="Dog 3" className="w-full h-full object-cover" />
+            <Image
+              src="/Ellipse 5.png"
+              alt="Dog 3"
+              width={64}
+              height={64}
+              className="w-full h-full object-cover"
+            />
           </div>
 
           <div className="absolute top-4 right-4 w-12 h-12 md:w-16 md:h-16 rounded-full overflow-hidden">
-            <img src="/Ellipse 1.png" alt="Dog 4" className="w-full h-full object-cover" />
+            <Image
+              src="/Ellipse 1.png"
+              alt="Dog 4"
+              width={64}
+              height={64}
+              className="w-full h-full object-cover"
+            />
           </div>
         </div>
       </div>

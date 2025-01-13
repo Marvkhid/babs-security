@@ -41,8 +41,8 @@ const Reviews = () => {
             Keep the good work
           </h2>
           <p className="text-lg text-center">
-          You made it so simple. My guest felt safe to move around with your guys on nice outfit.
-           keep the good work going . Thanks, guys!”
+            You made it so simple. My guest felt safe to move around with your guys on nice outfit.
+            keep the good work going. Thanks, guys!
           </p>
           <br />
           <div className="flex items-center justify-between mt-4">
@@ -64,8 +64,8 @@ const Reviews = () => {
            Best Security Detail I have ever used 
           </h2>
           <p className="text-lg text-center">
-          The attention to details of the security agents was amazing. They kept everything under 
-          wraps and I did not have to worry about anything
+            The attention to details of the security agents was amazing. They kept everything under 
+            wraps and I did not have to worry about anything.
           </p>
           <br />
           <div className="flex items-center justify-between mt-4">
